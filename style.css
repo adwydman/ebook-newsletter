@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 200;
+}
+
+body {
+  background-color: #222222;
+}
+
+.page {
+  margin: 20px 0;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cover {
+  background-image: url(./ebook.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 16px;
+  width: 300px;
+  height: 300px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600 !important;
+}
+
+li {
+  list-style: none;
+}
+
+.embed {
+  display: flex;
+}
+
+footer {
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 4px solid white;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.x {
+  margin-left: 8px;
+  background-image: url(./x.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+}
